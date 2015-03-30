@@ -112,7 +112,7 @@ class Variable < Struct.new(:name)
     true
   end
 
-  def reduce(environment)(environment)
+  def reduce(environment)
     environment[name]
   end
 end
